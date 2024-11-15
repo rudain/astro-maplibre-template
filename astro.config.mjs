@@ -5,7 +5,7 @@ import sitemap from "@astrojs/sitemap";
 import tailwind from "@astrojs/tailwind";
 
 export default defineConfig({
-  site: "https://rudain.github.io",
+  site: "https://github.com/rudain",
   base: "astro-maplibre-template",
   integrations: [mdx(), sitemap(), tailwind()],
 });
