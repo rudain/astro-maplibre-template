@@ -6,7 +6,7 @@ import { default as MapLibre } from "@components/MapLibre.astro";
 /* import all images you would like to use in line here */
 
 import fiskImg from "../assets/img/fisk02.jpg"
-import jamaicabaychangesone from "public/jamaicabaychangesone.jpg"
+import jamaicabaychangesone from "../assets/img/jamaicabaychangesone.jpg"
 
 
 <PageLayout title={SITE.title} description={SITE.description}>
@@ -55,13 +55,14 @@ import jamaicabaychangesone from "public/jamaicabaychangesone.jpg"
     />
 
 
-    jamaica bay in 1877
+    <p>Jamaica Bay in 1877</p>
+    <p>Land lost from 1877 to 2024</p>
 
-   comparison of jamaica bay from 1877 to 2024
 
-    <img src="/jamaicabaychangesone.jpg" alt="Description of Jamaica Bay changes" />
 
-    land lost from 1877 to 2024
+    <img src={jamaicabaychangesone} alt="Description of Jamaica Bay changes" />
+
+
 
     
     
