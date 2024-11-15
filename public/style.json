@@ -23,18 +23,18 @@
   "sources": {
     "openmaptiles": {
       "type": "vector",
-      "url": "https://api.maptiler.com/tiles/v3-openmaptiles/tiles.json?key={4ddadc4c3d212110}"
+      "url": "https://api.maptiler.com/tiles/v3-openmaptiles/tiles.json?key={key}"
     }
   },
   "sprite": "https://openmaptiles.github.io/positron-gl-style/sprite",
-  "glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key={k4ddadc4c3d212110}",
+  "glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key={key}",
   "layers": [
     {
       "id": "background",
       "type": "background",
       "minzoom": 1,
       "maxzoom": 24,
-      "paint": {"background-color": "rgba(251, 255, 226, 1)"}
+      "paint": {"background-color": "rgba(208, 217, 172, 1)"}
     },
     {
       "id": "park",
